@@ -4,7 +4,7 @@
 
 vspeed = - 10;
 
-
+image_yscale = 3;
 
 
 
