@@ -4,6 +4,7 @@
   "name": "AlienAttack",
   "resources": [
     {"id":{"name":"spr_tiro1_inimigo","path":"sprites/spr_tiro1_inimigo/spr_tiro1_inimigo.yy",},"order":8,},
+    {"id":{"name":"spr_tiro_impacto","path":"sprites/spr_tiro_impacto/spr_tiro_impacto.yy",},"order":9,},
     {"id":{"name":"spr_nave","path":"sprites/spr_nave/spr_nave.yy",},"order":2,},
     {"id":{"name":"spr_inimigo1","path":"sprites/spr_inimigo1/spr_inimigo1.yy",},"order":4,},
     {"id":{"name":"obj_tiro1_player","path":"objects/obj_tiro1_player/obj_tiro1_player.yy",},"order":1,},
@@ -15,6 +16,7 @@
     {"id":{"name":"spr_tiro1_player","path":"sprites/spr_tiro1_player/spr_tiro1_player.yy",},"order":5,},
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"order":1,},
     {"id":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},"order":0,},
+    {"id":{"name":"obj_tiro_impacto","path":"objects/obj_tiro_impacto/obj_tiro_impacto.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
