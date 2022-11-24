@@ -1,20 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_inimigo2",
-  "spriteId": {
-    "name": "spr_inimigo2",
-    "path": "sprites/spr_inimigo2/spr_inimigo2.yy",
-  },
+  "name": "obj_inimigo_pai",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_inimigo_pai",
-    "path": "objects/obj_inimigo_pai/obj_inimigo_pai.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,7 +21,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
