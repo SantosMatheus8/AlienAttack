@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 
-if(y < 0)
+if(y > 1280)
 {
 	instance_destroy();
 }

@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 
-vspeed = 10;
+vspeed = 8;
 
 
 
