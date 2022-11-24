@@ -3,9 +3,11 @@
   "resourceVersion": "1.6",
   "name": "AlienAttack",
   "resources": [
+    {"id":{"name":"spr_tiro1_inimigo","path":"sprites/spr_tiro1_inimigo/spr_tiro1_inimigo.yy",},"order":8,},
     {"id":{"name":"spr_nave","path":"sprites/spr_nave/spr_nave.yy",},"order":2,},
     {"id":{"name":"spr_inimigo1","path":"sprites/spr_inimigo1/spr_inimigo1.yy",},"order":4,},
     {"id":{"name":"obj_tiro1_player","path":"objects/obj_tiro1_player/obj_tiro1_player.yy",},"order":3,},
+    {"id":{"name":"obj_tiro1_inimigo","path":"objects/obj_tiro1_inimigo/obj_tiro1_inimigo.yy",},"order":5,},
     {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},"order":4,},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"order":7,},
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},"order":2,},
