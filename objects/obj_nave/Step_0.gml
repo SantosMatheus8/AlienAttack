@@ -14,7 +14,11 @@ x += direita * velocidade;
 y -= cima * velocidade;
 y += baixo * velocidade;
 
-
+if (keyboard_check_pressed(vk_space))
+{
+	instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
+	instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);	
+}
 
 
 
