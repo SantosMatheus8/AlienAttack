@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "AlienAttack",
   "resources": [
+    {"id":{"name":"obj_tiro_inimigo_impacto","path":"objects/obj_tiro_inimigo_impacto/obj_tiro_inimigo_impacto.yy",},"order":4,},
     {"id":{"name":"spr_tiro1_inimigo","path":"sprites/spr_tiro1_inimigo/spr_tiro1_inimigo.yy",},"order":8,},
     {"id":{"name":"spr_tiro_impacto","path":"sprites/spr_tiro_impacto/spr_tiro_impacto.yy",},"order":9,},
     {"id":{"name":"spr_nave","path":"sprites/spr_nave/spr_nave.yy",},"order":2,},
@@ -12,6 +13,7 @@
     {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},"order":0,},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"order":7,},
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},"order":2,},
+    {"id":{"name":"spr_tiro_impacto_inimigo","path":"sprites/spr_tiro_impacto_inimigo/spr_tiro_impacto_inimigo.yy",},"order":10,},
     {"id":{"name":"spr_inimigo2","path":"sprites/spr_inimigo2/spr_inimigo2.yy",},"order":3,},
     {"id":{"name":"spr_tiro1_player","path":"sprites/spr_tiro1_player/spr_tiro1_player.yy",},"order":5,},
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"order":1,},
