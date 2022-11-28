@@ -4,6 +4,11 @@
 alarm[0] = 60;
 alarm[1] = 60;
 
+timer_inimigo1 = 120;
+timer_inimigo2 = 180;
+
+timer_minimo_inimigo1 = timer_inimigo1 * 0.60;
+timer_minimo_inimigo2 = timer_inimigo2 * 0.60;
 
 pontos = 0;
 
@@ -19,10 +24,7 @@ ganha_pontos = function(quantidade_pontos)
 {
 	pontos += quantidade_pontos;
 }
-
-
-
-
+ 
 
 
 
