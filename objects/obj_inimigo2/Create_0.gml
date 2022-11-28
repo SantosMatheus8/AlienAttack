@@ -9,8 +9,10 @@ x_minimo = random_range(320, 720);
 velocidade_maxima = random_range(3, 5);
 velocidade_minima = random_range(-3, -5);
 
-
-	
+if(place_meeting(x, y, obj_inimigo1))
+{
+	instance_destroy();
+}
 
 
 
