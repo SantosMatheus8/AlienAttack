@@ -1,9 +1,8 @@
-/// @description Inserir descrição aqui
+/// @description Inicia criacao de inimigos
 // Você pode escrever seu código neste editor
 
-vspeed = 2;
-
 alarm[0] = 60;
+
 
 
 
