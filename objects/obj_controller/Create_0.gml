@@ -7,6 +7,10 @@ alarm[1] = 60;
 
 pontos = 0;
 
+level = 1;
+
+proximo_level = 100;
+
 //Esse decorator passado em baixo, e pro gamemaker
 //entender e meio q colocar um auto complete melhor
 //com o nosso metodo criado
