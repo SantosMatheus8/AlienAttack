@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+/// @description Controla tiro e movimentacao
 // Você pode escrever seu código neste editor
 
 //Movimentacao do personagem
@@ -15,10 +15,10 @@ x += direita * velocidade;
 y -= cima * velocidade;
 y += baixo * velocidade;
 
-if (tiro)
+if(tiro)
 {
 	instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
-	instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);	
+	instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
 }
 
 
