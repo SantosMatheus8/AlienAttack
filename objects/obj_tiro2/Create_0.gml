@@ -1,8 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-vspeed = - 10;
-
+vspeed = - 20;
 
 //Esse decorator passado em baixo, e pro gamemaker
 //entender e meio q colocar um auto complete melhor

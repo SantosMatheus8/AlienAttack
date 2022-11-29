@@ -26,11 +26,9 @@ if(tiro && alarm[0] == -1)
 	
 	instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
 	instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
-	
-		instance_create_layer(x , y - 20, "Instances", obj_tiro2);
+
+	instance_create_layer(x , y - 20, "Instances", obj_tiro2);
 }
-
-
 
 
 

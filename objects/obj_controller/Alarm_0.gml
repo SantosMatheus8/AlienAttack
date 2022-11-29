@@ -5,7 +5,7 @@ if(level == 1)
 {
 	timer_inimigo1 = 60;
 }
-if(level == 2)
+else if(level == 2)
 {
 	timer_inimigo1 = 120;
 }
