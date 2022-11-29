@@ -3,8 +3,7 @@
 
 velocidade = 5;
 
-
-
+tempo_tiro = 15;
 
 
 
