@@ -15,7 +15,6 @@ x += direita * velocidade;
 y -= cima * velocidade;
 y += baixo * velocidade;
 
-
 //Faz os disparos ficarem automaticos enquanto o jogador
 //segura espaco, o alarm nao tem codigo nenhum, so
 //estamos usando ele como temporizador. (quando o
@@ -26,23 +25,20 @@ if(tiro && alarm[0] == -1)
 	{
 		alarm[0] = tempo_tiro * 2; 
 		
-		instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
-		instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
+		cria_tiro1();
 	}
 	else if(tiro_level == 2)
 	{
 		alarm[0] = tempo_tiro; 
 		
-		instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
-		instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
+		cria_tiro1();
 	}
 	else if(tiro_level == 3)
 	{
 		alarm[0] = tempo_tiro; 
 		
-		instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
-		instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
-	
+		cria_tiro1();
+
 		instance_create_layer(x , y - 20, "Instances", obj_tiro2);
 	}
 }
