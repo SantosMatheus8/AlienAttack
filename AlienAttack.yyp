@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "AlienAttack",
   "resources": [
+    {"id":{"name":"obj_fragmento_tiro","path":"objects/obj_fragmento_tiro/obj_fragmento_tiro.yy",},"order":5,},
     {"id":{"name":"obj_tiro2_inimigo","path":"objects/obj_tiro2_inimigo/obj_tiro2_inimigo.yy",},"order":6,},
     {"id":{"name":"spr_tiro2_inimigo","path":"sprites/spr_tiro2_inimigo/spr_tiro2_inimigo.yy",},"order":14,},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"order":12,},
