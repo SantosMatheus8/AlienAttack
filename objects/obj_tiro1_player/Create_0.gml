@@ -20,7 +20,10 @@ impacto = function(inimigo, pontos)
 	instance_destroy(inimigo);
 	instance_create_layer(inimigo.x, inimigo.y, "Instances", obj_explosao);
 
-	cria_fragmentos_tiro();
+	if(obj_nave.tiro_level == 4)
+	{
+		cria_fragmentos_tiro();
+	}
 }
 
 ///@method cria_fragmentos_tiro()
