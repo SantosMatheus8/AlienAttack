@@ -22,12 +22,29 @@ y += baixo * velocidade;
 // alarm esta desavivado, o valor dele e -1)
 if(tiro && alarm[0] == -1)
 {
-	alarm[0] = tempo_tiro; 
+	if(tiro_level == 1)
+	{
+		alarm[0] = tempo_tiro * 2; 
+		
+		instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
+		instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
+	}
+	else if(tiro_level == 2)
+	{
+		alarm[0] = tempo_tiro; 
+		
+		instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
+		instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
+	}
+	else if(tiro_level == 3)
+	{
+		alarm[0] = tempo_tiro; 
+		
+		instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
+		instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
 	
-	instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
-	instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
-
-	instance_create_layer(x , y - 20, "Instances", obj_tiro2);
+		instance_create_layer(x , y - 20, "Instances", obj_tiro2);
+	}
 }
 
 

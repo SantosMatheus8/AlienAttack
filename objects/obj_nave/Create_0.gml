@@ -5,7 +5,7 @@ velocidade = 5;
 
 tempo_tiro = 15;
 
-
+tiro_level = 1;
 
 
 
