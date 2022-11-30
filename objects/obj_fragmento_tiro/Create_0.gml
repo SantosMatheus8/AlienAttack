@@ -21,6 +21,3 @@ impacto = function(inimigo, pontos)
 
 
 
-
-
-

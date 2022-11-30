@@ -22,46 +22,28 @@ impacto = function(inimigo, pontos)
 
 	if(obj_nave.tiro_level == 4)
 	{
-		cria_fragmentos_tiro();
+		direcao = 0;
+		repeat(7)
+		{	
+			cria_fragmentos(direcao);
+			if(direcao == 45)
+			{
+				direcao += 90
+			}
+			else
+			{
+				direcao += 45;
+			}
+		}
 	}
 }
 
-///@method cria_fragmentos_tiro()
-cria_fragmentos_tiro = function()
+cria_fragmentos = function(direcao)
 {
-	var fragmento1 = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
-	fragmento1.image_angle = direction + 0;  
-	fragmento1.hspeed = 10;
-	fragmento1.vspeed = 0;
-
-	var fragmento2 = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
-	fragmento2.image_angle = direction + 180;
-	fragmento2.hspeed = -10;
-	fragmento2.vspeed = 0;
-	
-	var fragmento3 = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
-	fragmento3.image_angle = direction + 270;  
-	fragmento3.vspeed = 10;
-	
-	var fragmento4 = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
-	fragmento4.image_angle = direction + 45;  
-	fragmento4.hspeed = 10;
-	
-	var fragmento5 = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
-	fragmento5.image_angle = direction + 135;  
-	fragmento5.hspeed = - 10;
-	
-	var fragmento6 = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
-	fragmento6.image_angle = direction + 225;  
-	fragmento6.hspeed = - 10;
-	fragmento6.vspeed = 10;
-	
-	var fragmento7 = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
-	fragmento7.image_angle = direction + 315;  
-	fragmento7.hspeed = 10;
-	fragmento7.vspeed = 10;
+	var fragmento = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
+	fragmento.direction = direcao;
+	fragmento.image_angle = fragmento.direction - 90;  
 }
-
 
 
 
