@@ -22,22 +22,11 @@ impacto = function(inimigo, pontos)
 
 	if(obj_nave.tiro_level == 4)
 	{
-		direcao = 0;
-		repeat(7)
-		{	
-			cria_fragmentos(direcao);
-			if(direcao == 45)
-			{
-				direcao += 90
-			}
-			else
-			{
-				direcao += 45;
-			}
-		}
+		cria_tiro4();
 	}
 }
 
+///@method cria_fragmentos(direcao)
 cria_fragmentos = function(direcao)
 {
 	var fragmento = instance_create_layer(x, y, "Instances", obj_fragmento_tiro);
@@ -45,5 +34,22 @@ cria_fragmentos = function(direcao)
 	fragmento.image_angle = fragmento.direction - 90;  
 }
 
+///@method cria_tiro4()
+cria_tiro4 = function()
+{
+	var direcao = 0;
+	repeat(7)
+	{	
+		cria_fragmentos(direcao);
+		if(direcao == 45)
+		{
+			direcao += 90
+		}
+		else
+		{
+			direcao += 45;
+		}
+	}
+}
 
 
