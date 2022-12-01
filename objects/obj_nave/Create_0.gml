@@ -22,14 +22,14 @@ upgrade = function(_chance)
 	{
 		velocidade += 0.5;
 	}
-	else if(_chance > 50 && _chance < 90 && tempo_tiro >= 7.5)
-	{
-		//Aumenta velocidade ataque
-		tempo_tiro *= 0.95;
-	}
 	else if(_chance >= 90 && tiro_level < 5)
 	{
 		//Aumenta level tiro
 		tiro_level++;
+	}
+	else if(tempo_tiro >= 7.5)
+	{
+		//Aumenta velocidade ataque
+		tempo_tiro *= 0.95;
 	}
 }

@@ -32,13 +32,13 @@ if(obj_nave.tempo_tiro <= 7.5)
 		//Velocidade
 		cor = c_blue;
 	}
-	else if(chance > 50 && chance < 90)
-	{
-		//Tempo do tiro
-		cor = c_yellow;
-	}
 	else if(chance >= 90)
 	{
 		//Level do tiro
 		cor = c_red;
+	}
+	else
+	{
+		//Tempo do tiro
+		cor = c_yellow;
 	}
