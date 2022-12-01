@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-speed = 0.5;
+speed = 2;
 
 direction = random(359);
 
