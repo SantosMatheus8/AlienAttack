@@ -33,7 +33,7 @@ if(tiro && alarm[0] == -1)
 		
 		cria_tiro1();
 	}
-	else if(tiro_level == 3 || tiro_level == 4)
+	else if(tiro_level == 3 || tiro_level == 4 || tiro_level == 5)
 	{
 		alarm[0] = tempo_tiro; 
 		

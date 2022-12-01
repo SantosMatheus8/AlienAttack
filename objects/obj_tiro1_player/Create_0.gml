@@ -24,6 +24,11 @@ impacto = function(inimigo, pontos)
 	{
 		cria_tiro4();
 	}
+	
+	if(obj_nave.tiro_level == 5)
+	{
+		cria_tiro5();
+	}
 }
 
 ///@method cria_fragmentos(direcao)
@@ -43,12 +48,24 @@ cria_tiro4 = function()
 		cria_fragmentos(direcao);
 		if(direcao == 45)
 		{
-			direcao += 90
+			direcao += 90;
 		}
 		else
 		{
 			direcao += 45;
 		}
+	}
+}
+
+///@method cria_tiro5()
+cria_tiro5 = function()
+{
+	var direcao = 0;
+	repeat(18)
+	{	
+		cria_fragmentos(direcao);
+		
+		direcao += 20;
 	}
 }
 
