@@ -7,7 +7,7 @@
     {"id":{"name":"obj_tiro2_inimigo","path":"objects/obj_tiro2_inimigo/obj_tiro2_inimigo.yy",},"order":6,},
     {"id":{"name":"spr_tiro2_inimigo","path":"sprites/spr_tiro2_inimigo/spr_tiro2_inimigo.yy",},"order":5,},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"order":12,},
-    {"id":{"name":"Object15","path":"objects/Object15/Object15.yy",},"order":5,},
+    {"id":{"name":"obj_explosao_power_up","path":"objects/obj_explosao_power_up/obj_explosao_power_up.yy",},"order":5,},
     {"id":{"name":"obj_tiro_inimigo_impacto","path":"objects/obj_tiro_inimigo_impacto/obj_tiro_inimigo_impacto.yy",},"order":4,},
     {"id":{"name":"spr_tiro2","path":"sprites/spr_tiro2/spr_tiro2.yy",},"order":4,},
     {"id":{"name":"spr_tiro1_inimigo","path":"sprites/spr_tiro1_inimigo/spr_tiro1_inimigo.yy",},"order":4,},

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object15",
+  "name": "obj_explosao_power_up",
   "spriteId": {
     "name": "spr_explosao_power_up",
     "path": "sprites/spr_explosao_power_up/spr_explosao_power_up.yy",

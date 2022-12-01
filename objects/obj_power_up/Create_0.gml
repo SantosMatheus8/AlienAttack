@@ -5,6 +5,8 @@ speed = 2;
 
 direction = random(359);
 
+alarm[0] = 60;
+
 //A chance fica entre 0 e 100
 chance = random(100);
 
