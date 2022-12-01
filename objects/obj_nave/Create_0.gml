@@ -5,7 +5,7 @@ velocidade = 5;
 
 tempo_tiro = 15;
 
-tiro_level = 5;
+tiro_level = 2;
 
 ///@method cria_tiro1()
 cria_tiro1 = function()
@@ -14,20 +14,20 @@ cria_tiro1 = function()
 	tiro2 = instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
 }
 
-///@method upgrade(tipo_upgrade)
-upgrade = function(tipo_upgrade)
+///@method upgrade(chance)
+upgrade = function(_chance)
 {
 	//Aumenta velocidade movimento
-	if(chance <= 50)
+	if(velocidade < 10 && _chance <= 50)
 	{
 		velocidade += 0.5;
 	}
-	else if(chance > 50 && chance < 90)
+	else if(_chance > 50 && _chance < 90 && tempo_tiro >= 7.5)
 	{
 		//Aumenta velocidade ataque
 		tempo_tiro *= 0.95;
 	}
-	else if(chance >= 90)
+	else if(_chance >= 90 && tiro_level < 5)
 	{
 		//Aumenta level tiro
 		tiro_level++;
