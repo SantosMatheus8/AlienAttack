@@ -9,6 +9,7 @@ baixo = keyboard_check(ord("S"));
 esquerda = keyboard_check(ord("A"));
 direita = keyboard_check(ord("D"));
 tiro = keyboard_check(vk_space); 
+escudo = keyboard_check_pressed(ord("E")); 
 
 x -= esquerda * velocidade;
 x += direita * velocidade;
@@ -43,5 +44,11 @@ if(tiro && alarm[0] == -1)
 	}
 }
 
+if(escudo)
+{
+		var escudo_ativo = instance_create_layer(x , y, "Escudo", obj_escudo);
+
+		escudo_ativo.nave = id;
+}
 
 
