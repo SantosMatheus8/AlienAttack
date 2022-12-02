@@ -9,12 +9,8 @@ image_yscale = 3;
 //entender e meio q colocar um auto complete melhor
 //com o nosso metodo criado
 ///@method impacto(inimigo, pontos)
-impacto = function(inimigo, pontos)
+impacto = function(inimigo)
 { 
-	if(instance_exists(obj_controller))
-	{
-		obj_controller.ganha_pontos(pontos);
-	}
 	instance_destroy();
 	instance_create_layer(x, y, "Instances", obj_tiro_impacto);
 	instance_destroy(inimigo);

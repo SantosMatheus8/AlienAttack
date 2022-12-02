@@ -3,7 +3,7 @@
 
 if(y > 1280)
 {
-	instance_destroy();
+	instance_destroy(id, false);
 }
 
 
