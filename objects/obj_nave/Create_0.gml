@@ -5,7 +5,7 @@ velocidade = 5;
 
 tempo_tiro = 15;
 
-tiro_level = 2;
+tiro_level = 1	;
 
 ///@method cria_tiro1()
 cria_tiro1 = function()
