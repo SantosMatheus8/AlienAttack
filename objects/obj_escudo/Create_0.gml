@@ -5,7 +5,7 @@ nave = noone;
 
 vida = 3;
 
-
+alarm[0] = 120;
 
 
 
