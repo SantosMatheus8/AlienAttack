@@ -1,11 +1,13 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+vida = 3; 
+
 velocidade = 5;
 
 tempo_tiro = 15;
 
-tiro_level = 1	;
+tiro_level = 1;
 
 ///@method cria_tiro1()
 cria_tiro1 = function()
@@ -31,5 +33,17 @@ upgrade = function(_chance)
 	{
 		//Aumenta velocidade ataque
 		tempo_tiro *= 0.95;
+	}
+}
+
+///@method perde_vida()
+perde_vida = function()
+{
+	vida--;
+	
+	if(vida < 0)
+	{
+		instance_destroy();
+		show_debug_message("MORREU");
 	}
 }

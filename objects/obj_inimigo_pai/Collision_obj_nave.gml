@@ -4,7 +4,7 @@
 instance_destroy();
 instance_create_layer(x, y, "Instances", obj_explosao);
 
-
+other.perde_vida();
 
 
 

@@ -9,10 +9,6 @@ vspeed = - 12;
 ///@method impacto(inimigo)
 impacto = function(inimigo, pontos)
 { 
-	if(instance_exists(obj_controller))
-	{
-		obj_controller.ganha_pontos(pontos);
-	}
 	instance_destroy();
 	instance_create_layer(x, y, "Instances", obj_tiro_impacto);
 	instance_destroy(inimigo);
