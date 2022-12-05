@@ -44,6 +44,6 @@ perde_vida = function()
 	if(vida < 0)
 	{
 		instance_destroy();
-		show_debug_message("MORREU");
+		layer_sequence_create("Sequences", room_width / 2, room_height / 2, sq_game_over);
 	}
 }
