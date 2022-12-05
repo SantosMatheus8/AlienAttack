@@ -11,6 +11,8 @@ tiro_level = 1;
 
 quantidade_escudos = 3;
 
+alarm[1] = 60;
+
 ///@method cria_tiro1()
 cria_tiro1 = function()
 {
@@ -49,3 +51,4 @@ perde_vida = function()
 		layer_sequence_create("Sequences", room_width / 2, room_height / 2, sq_game_over);
 	}
 }
+
