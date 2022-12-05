@@ -9,6 +9,8 @@ tempo_tiro = 15;
 
 tiro_level = 1;
 
+quantidade_escudos = 3;
+
 ///@method cria_tiro1()
 cria_tiro1 = function()
 {

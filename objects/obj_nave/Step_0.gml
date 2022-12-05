@@ -44,11 +44,13 @@ if(tiro && alarm[0] == -1)
 	}
 }
 
-if(escudo)
+if(escudo && quantidade_escudos > 0 && !instance_exists(obj_escudo))
 {
 		var escudo_ativo = instance_create_layer(x , y, "Escudo", obj_escudo);
 
 		escudo_ativo.nave = id;
+		
+		quantidade_escudos--;
 }
 
 
