@@ -1,6 +1,9 @@
 /// @description Inicia criacao de inimigos
 // Você pode escrever seu código neste editor
 
+//Randomizando o jogo
+randomize();
+
 alarm[0] = 60;
 alarm[1] = 60;
 
