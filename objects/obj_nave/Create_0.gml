@@ -38,6 +38,10 @@ upgrade = function(_chance)
 		//Aumenta velocidade ataque
 		tempo_tiro *= 0.95;
 	}
+	else
+	{
+		obj_controller.ganha_pontos(40);
+	}
 }
 
 ///@method perde_vida()
