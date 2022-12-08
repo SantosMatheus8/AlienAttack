@@ -54,5 +54,6 @@ if(escudo && quantidade_escudos > 0 && !instance_exists(obj_escudo))
 }
 
 
+//Impedindo o player de sair da tela 
 x = clamp(x, 45, 1875);
 y = clamp(y, 65, 1040);
