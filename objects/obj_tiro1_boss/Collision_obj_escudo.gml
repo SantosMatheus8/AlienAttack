@@ -12,6 +12,8 @@ if(tempo_sem_contato <= 0)
 
 	other.image_index++;
 	other.vida--;
+	var screen_shake = instance_create_layer(x, y, "Instances", obj_screenshake);      
+	screen_shake.shake = 1.5;
 	tempo_sem_contato = 60;
 }
 tempo_sem_contato--;
