@@ -15,11 +15,14 @@ explode = false;
 //outros apenas apos um segundo.
 tempo_sem_contato = 0;
 
+//A chance do tiro explodir sozinho
+local_explosao = random_range(680, 1000);
+
 ///@method explode_tiro()
 explode_tiro = function()
 {
 	vspeed = 0;
-	image_xscale += 1;
+	image_xscale += 0.5;
 	image_alpha *= 0.95
 
 	if(image_alpha <= 0.1)
@@ -27,17 +30,6 @@ explode_tiro = function()
 		instance_destroy();
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Inherit the parent event

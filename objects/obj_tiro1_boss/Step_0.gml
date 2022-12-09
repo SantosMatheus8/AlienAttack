@@ -6,8 +6,10 @@ if(explode)
 	explode_tiro();
 }
 
-
-
+if(local_explosao <= y)
+{
+	explode_tiro();
+}
 
 // Inherit the parent event
 event_inherited();
