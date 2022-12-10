@@ -56,3 +56,13 @@ if(escudo && quantidade_escudos > 0 && !instance_exists(obj_escudo))
 //Impedindo o player de sair da tela 
 x = clamp(x, 45, 1875);
 y = clamp(y, 65, 1040);
+
+
+//A variavel tempo_sem_contato impede que o player
+//tome dano 60 vezes por segundo ao tocar no boss,
+//com ela ele só vai tomar dano depois de 2 segundos
+//apos tocar no boss
+if(tempo_sem_contato >= 0)
+{
+	tempo_sem_contato--;
+}

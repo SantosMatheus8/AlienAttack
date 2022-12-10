@@ -11,6 +11,12 @@ tiro_level = 1;
 
 quantidade_escudos = 3;
 
+//A variavel tempo_sem_contato impede que o player
+//tome dano 60 vezes por segundo ao tocar no boss,
+//com ela ele só vai tomar dano depois de 2 segundos
+//apos tocar no boss
+tempo_sem_contato = 0;
+
 alarm[1] = 60;
 
 ///@method cria_tiro1()
