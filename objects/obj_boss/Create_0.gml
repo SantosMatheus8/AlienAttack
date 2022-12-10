@@ -17,6 +17,8 @@ tempo_tiro = 0;
 velocidade = 5;
 hspeed = velocidade;
 
+vida_max = 2000;
+vida_atual = vida_max; 
 
 cria_tiro_base = function()
 {
