@@ -52,8 +52,6 @@ perde_vida = function()
 	if(vida < 0)
 	{
 		instance_destroy();
-		instance_create_layer(x, y, "Instances", obj_screenshake);      
-		layer_sequence_create("Sequences", room_width / 2, room_height / 2, sq_game_over);   
 	}
 }
 
