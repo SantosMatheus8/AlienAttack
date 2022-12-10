@@ -7,15 +7,12 @@ if(estado_atual == "estado 1")
 }
 else if(estado_atual == "estado 2")
 {
-	cria_tiro_base();
-	
-	if(x < 300 || x > 1620)
-	{
-		hspeed *= - 1;
-	}
-		
+	estado_2();
 }
-
+else if(estado_atual == "estado 3")
+{
+	estado_3();
+}
 
 
 
