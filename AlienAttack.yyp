@@ -32,6 +32,7 @@
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},"order":6,},
     {"id":{"name":"spr_tiro_impacto_inimigo","path":"sprites/spr_tiro_impacto_inimigo/spr_tiro_impacto_inimigo.yy",},"order":3,},
     {"id":{"name":"spr_inimigo2","path":"sprites/spr_inimigo2/spr_inimigo2.yy",},"order":2,},
+    {"id":{"name":"spr_boss_escuro","path":"sprites/spr_boss_escuro/spr_boss_escuro.yy",},"order":2,},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"order":7,},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":0,},
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},"order":0,},

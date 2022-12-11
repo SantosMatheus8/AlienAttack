@@ -13,6 +13,12 @@ else if(estado_atual == "estado 3")
 {
 	estado_3();
 }
+else if(estado_atual == "estado 4")
+{
+	//Trocando de sprite
+	sprite_index = spr_boss_escuro;
+	hspeed = 0;
+}
 
 
 
