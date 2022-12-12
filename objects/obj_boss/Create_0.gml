@@ -6,7 +6,7 @@ Estado 1 :
 Estado 2 :
 Estado 3 :
 */ 
-estado_atual = "estado 3";
+estado_atual = "estado 4";
 
 
 //O tempo do tiro para o boss comecar a atirar, no step
@@ -19,6 +19,8 @@ hspeed = velocidade;
 
 vida_max = 2000;
 vida_atual = vida_max; 
+
+alarme0 = 1;
 
 cria_tiro_base = function()
 {
@@ -57,8 +59,13 @@ estado_3 = function()
 }
 
 
-
-
+cria_healer = function()
+{
+	var _x = random_range(100, 1820);
+	var _y = random_range(450, 600);
+	
+	instance_create_layer(_x, _y, "Instances", obj_inimigo_healer)
+}
 
 
 
