@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 //Movimentacao do personagem
-var cima, baixo, esquerda, direita, tiro;
+var cima, baixo, esquerda, direita, tiro, escudo;
 
 cima = keyboard_check(ord("W"));
 baixo = keyboard_check(ord("S"));

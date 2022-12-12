@@ -22,8 +22,8 @@ alarm[1] = 60;
 ///@method cria_tiro1()
 cria_tiro1 = function()
 {
-	tiro1 = instance_create_layer(x - 38, y - 20, "Instances", obj_tiro1_player);	
-	tiro2 = instance_create_layer(x + 44 , y - 20, "Instances", obj_tiro1_player);
+	tiro1 = instance_create_layer(x - 40, y - 20, "Instances", obj_tiro1_player);	
+	tiro2 = instance_create_layer(x + 42 , y - 20, "Instances", obj_tiro1_player);
 }
 
 ///@method upgrade(chance)
