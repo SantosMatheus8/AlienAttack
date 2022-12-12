@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "AlienAttack",
   "resources": [
+    {"id":{"name":"spr_inimigo_healer","path":"sprites/spr_inimigo_healer/spr_inimigo_healer.yy",},"order":3,},
     {"id":{"name":"obj_fragmento_tiro","path":"objects/obj_fragmento_tiro/obj_fragmento_tiro.yy",},"order":4,},
     {"id":{"name":"obj_tiro2_inimigo","path":"objects/obj_tiro2_inimigo/obj_tiro2_inimigo.yy",},"order":6,},
     {"id":{"name":"spr_tiro2_inimigo","path":"sprites/spr_tiro2_inimigo/spr_tiro2_inimigo.yy",},"order":5,},
@@ -40,6 +41,7 @@
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"order":1,},
     {"id":{"name":"obj_power_up","path":"objects/obj_power_up/obj_power_up.yy",},"order":6,},
     {"id":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},"order":0,},
+    {"id":{"name":"obj_inimigo_healer","path":"objects/obj_inimigo_healer/obj_inimigo_healer.yy",},"order":2,},
     {"id":{"name":"obj_tiro_impacto","path":"objects/obj_tiro_impacto/obj_tiro_impacto.yy",},"order":2,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
