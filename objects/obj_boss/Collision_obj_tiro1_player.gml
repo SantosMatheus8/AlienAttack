@@ -29,8 +29,11 @@ if(estado_atual != "estado 4")
 		obj_tiro1_player.cria_tiro5();
 	}
 }
-
-
+else 
+{
+		instance_create_layer(other.x, other.y, "Instances", obj_tiro_impacto);
+		instance_destroy(other);
+}
 
 
 
