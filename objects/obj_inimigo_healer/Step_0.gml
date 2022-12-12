@@ -1,8 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-instance_create_layer(x, y,  "Instances", obj_tiro_healer);
-
+if(image_alpha >= 0.8)
+{
+	instance_create_layer(x, y,  "Instances", obj_tiro_healer);
+}
 
 if(instance_exists(obj_boss))
 {
@@ -11,7 +13,7 @@ if(instance_exists(obj_boss))
 
 image_angle = direction + 180;  
 
-
+image_alpha += 0.01;
 
 
 
