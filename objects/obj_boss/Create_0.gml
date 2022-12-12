@@ -6,7 +6,7 @@ Estado 1 :
 Estado 2 :
 Estado 3 :
 */ 
-estado_atual = "estado 4";
+estado_atual = "estado 3";
 
 
 //O tempo do tiro para o boss comecar a atirar, no step
