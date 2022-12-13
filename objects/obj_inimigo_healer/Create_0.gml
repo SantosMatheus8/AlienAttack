@@ -9,7 +9,7 @@ aumento_escala = 0.002;
 
 if(place_meeting(x, y, obj_inimigo_healer))
 {
-	instance_destroy();
+	y += 60;
 }
 
 image_alpha = 0;
