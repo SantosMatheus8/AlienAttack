@@ -32,4 +32,5 @@ function destroi_sequence()
 	var sequences = layer_get_all_elements("Sequences_boss");
 	layer_sequence_destroy(sequences[0]);
 
+	instance_create_layer(960, 256, "Boss", obj_boss);
 }

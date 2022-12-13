@@ -21,5 +21,3 @@ alarm[0] = timer_inimigo1;
 
 
 
-
-
