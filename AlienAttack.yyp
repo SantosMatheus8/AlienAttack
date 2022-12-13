@@ -46,7 +46,9 @@
     {"id":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},"order":0,},
     {"id":{"name":"obj_inimigo_healer","path":"objects/obj_inimigo_healer/obj_inimigo_healer.yy",},"order":2,},
     {"id":{"name":"obj_tiro_impacto","path":"objects/obj_tiro_impacto/obj_tiro_impacto.yy",},"order":2,},
+    {"id":{"name":"obj_explosao_healer","path":"objects/obj_explosao_healer/obj_explosao_healer.yy",},"order":4,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":0,},
+    {"id":{"name":"spr_healer_explosao","path":"sprites/spr_healer_explosao/spr_healer_explosao.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

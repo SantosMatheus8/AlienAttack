@@ -16,9 +16,14 @@ image_angle = direction + 180;
 image_alpha += 0.01;
 
 
+if(escala >= 1.1 || escala < 1)
+{
+	aumento_escala *= -1;
+}
+escala += aumento_escala;
 
 
-
-
+image_xscale = escala;
+image_yscale = escala;
 
 
