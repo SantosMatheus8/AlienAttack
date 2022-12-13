@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Impacto_boss",
+  "name": "Funcoes_Globais",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

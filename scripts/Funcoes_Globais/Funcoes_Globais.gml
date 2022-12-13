@@ -1,5 +1,6 @@
 // Os recursos de script mudaram para a v2.3.0; veja
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
+
 function Impacto_boss(){
 	//Perdendo vida
 	if(vida_atual > 0)
@@ -23,4 +24,12 @@ function Impacto_boss(){
 	{
 		obj_tiro1_player.cria_tiro5();
 	}
+}
+
+//Destruindo a sequence do boss
+function destroi_sequence()
+{
+	var sequences = layer_get_all_elements("Sequences_boss");
+	layer_sequence_destroy(sequences[0]);
+
 }
