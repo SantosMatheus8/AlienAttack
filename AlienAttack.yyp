@@ -13,6 +13,7 @@
     {"id":{"name":"spr_tiro2","path":"sprites/spr_tiro2/spr_tiro2.yy",},"order":4,},
     {"id":{"name":"spr_tiro1_boss","path":"sprites/spr_tiro1_boss/spr_tiro1_boss.yy",},"order":1,},
     {"id":{"name":"spr_tiro1_inimigo","path":"sprites/spr_tiro1_inimigo/spr_tiro1_inimigo.yy",},"order":4,},
+    {"id":{"name":"Impacto_boss","path":"scripts/Impacto_boss/Impacto_boss.yy",},"order":0,},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},"order":1,},
     {"id":{"name":"spr_explosao_power_up","path":"sprites/spr_explosao_power_up/spr_explosao_power_up.yy",},"order":5,},
     {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},"order":9,},
