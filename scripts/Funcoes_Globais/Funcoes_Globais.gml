@@ -34,3 +34,12 @@ function destroi_sequence()
 
 	instance_create_layer(960, 256, "Boss", obj_boss);
 }
+
+function cria_sequence_vitoria()
+{
+	layer_sequence_create("Sequences", obj_nave.x ,obj_nave.y , sq_final_level);
+	if(instance_exists(obj_nave))
+	{
+		instance_destroy(obj_nave, false);
+	}
+}
