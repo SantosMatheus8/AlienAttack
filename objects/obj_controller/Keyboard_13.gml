@@ -3,7 +3,8 @@
 
 if(!instance_exists(obj_nave))
 {
-	room_restart();
+	var transicao = instance_create_layer(0, 0, "Instances", obj_transicao);
+	transicao.destino = Room_inicio;
 }
 
 
