@@ -1,7 +1,7 @@
 /// @description Cria inimigo 2
 // Você pode escrever seu código neste editor
 
-if(level >= 2)
+if(level >= 2 && level < level_criar_boss)
 {
 	var x_inimigo = random_range(70, 1850);
 	

@@ -19,6 +19,9 @@ level = 1;
 
 proximo_level = 100;
 
+criou_boss = false;
+level_criar_boss = 10;
+
 //Esse decorator passado em baixo, e pro gamemaker
 //entender e meio q colocar um auto complete melhor
 //com o nosso metodo criado
