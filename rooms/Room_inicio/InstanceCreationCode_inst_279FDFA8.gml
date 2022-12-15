@@ -1,4 +1,4 @@
 
-texto = "PONTOS"
+texto = "ESTATÍSTICAS"
 
 destino = Room_pontos;
