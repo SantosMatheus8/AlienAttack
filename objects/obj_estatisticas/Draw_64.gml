@@ -6,7 +6,7 @@
 draw_set_font(fnt_estatisticas);
 
 //Desenhando pontos
-draw_text(640, 260,  "Pontuacao maxima : " + string(global.pontuacao_maxima));
+draw_text(640, 260,  "Pontuação máxima : " + string(global.pontuacao_maxima));
 
 //Desenhando inimigos derrotados
 
