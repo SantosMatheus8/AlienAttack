@@ -5,8 +5,12 @@
 //Definindo a fonte
 draw_set_font(fnt_estatisticas);
 
+//A funcao roundo, faz pegar o numero real e retornar 
+//inteiro
+var _pontos = round(pontos);
+
 //Desenhando pontos
-draw_text(640, 260,  "Pontuação máxima : " + string(global.pontuacao_maxima));
+draw_text(640, 260,  "Pontuação máxima : " + string(_pontos));
 
 //Desenhando inimigos derrotados
 
@@ -19,7 +23,11 @@ draw_text(640, 460, "Total de mortes : " + string(global.player_total_mortes));
 draw_set_font(-1);
 
 
-
+//Fazendo animacao da pontuacao subindo
+if(pontos < global.pontuacao_maxima)
+{
+	 pontos += global.pontuacao_maxima / 100;
+}
 
 
 
