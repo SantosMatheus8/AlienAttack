@@ -43,3 +43,9 @@ function cria_sequence_vitoria()
 		instance_destroy(obj_nave, false);
 	}
 }
+
+function cria_transicao()
+{
+	var transicao = instance_create_layer(0, 0, "Instances", obj_transicao);
+	transicao.destino = Room_inicio;
+}

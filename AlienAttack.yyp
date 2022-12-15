@@ -59,6 +59,7 @@
     {"id":{"name":"obj_explosao_healer","path":"objects/obj_explosao_healer/obj_explosao_healer.yy",},"order":4,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":0,},
     {"id":{"name":"spr_healer_explosao","path":"sprites/spr_healer_explosao/spr_healer_explosao.yy",},"order":5,},
+    {"id":{"name":"obj_estatisticas","path":"objects/obj_estatisticas/obj_estatisticas.yy",},"order":12,},
     {"id":{"name":"Room_pontos","path":"rooms/Room_pontos/Room_pontos.yy",},"order":3,},
     {"id":{"name":"Room_level1","path":"rooms/Room_level1/Room_level1.yy",},"order":0,},
   ],

@@ -25,6 +25,8 @@ impacto = function(inimigo)
 	{
 		cria_tiro5();
 	}
+	
+	global.inimigos_derrotados++;
 }
 
 ///@method cria_fragmentos(direcao)
