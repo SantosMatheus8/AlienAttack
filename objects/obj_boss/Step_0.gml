@@ -10,7 +10,7 @@ if(estado_atual != "estado 4")
 
 if(estado_atual == "estado 1")
 {
-	cria_tiro_base();
+	estado_1();
 }
 else if(estado_atual == "estado 2")
 {
@@ -28,9 +28,29 @@ else if(estado_atual == "estado 4")
 	
 	alarm[0] = alarme0;
 	alarme0--;
+	
+	alarm[1] = alarme1;
+	alarme1--;
 }
 
+show_debug_message(estado_atual)
 
+//Fazendo o boss˜mudar de estado dependendo da vida
+//dele
+if(vida_atual <= (vida_max * 0.8) && vida_atual > (vida_max * 0.6))
+{
+	estado_atual = "estado 2";
+}
+else if (vida_atual <= (vida_max * 0.6) && vida_atual > (vida_max * 0.4) && estado_atual != "estado 4")
+{
+	estado_atual = "estado 3";
+}
+else if (vida_atual <= (vida_max * 0.4) && !entrou_estado4)
+{
+	estado_atual = "estado 4";
+}
+
+//if(entrou_estado4 && !instance_exists())
 
 
 

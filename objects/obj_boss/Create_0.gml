@@ -6,8 +6,13 @@ Estado 1 :
 Estado 2 :
 Estado 3 :
 */ 
-estado_atual = "estado 3";
+estado_atual = "estado 1";
 
+
+//Essa variavel verifica se o boss ja chegou no estado
+//4, com ela eu garanto que ele nao vai curar mais de
+//uma vez
+entrou_estado4 = false;
 
 //O tempo do tiro para o boss comecar a atirar, no step
 //o tempo tiro e resetado para setar um intervalo
@@ -21,6 +26,7 @@ vida_max = 2000;
 vida_atual = vida_max; 
 
 alarme0 = 1;
+alarme1 = 300;
 
 cria_tiro_base = function()
 {
@@ -33,14 +39,19 @@ cria_tiro_base = function()
 	tempo_tiro--;
 }
 
-estado_2 = function()
+estado_1 = function()
 {
 	cria_tiro_base();
-	
+		
 	if(x < 300 || x > 1620)
 	{
 		hspeed *= - 1;
 	}
+}
+
+estado_2 = function()
+{
+	estado_1();
 }
 
 estado_3 = function()

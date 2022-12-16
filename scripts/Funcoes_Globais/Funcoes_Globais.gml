@@ -5,7 +5,8 @@ function Impacto_boss(){
 	//Perdendo vida
 	if(vida_atual > 0)
 	{
-		vida_atual -= 2;
+		vida_atual -= 40;
+		//vida_atual -= 2;
 	}
 	else
 	{
