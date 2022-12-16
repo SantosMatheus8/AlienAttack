@@ -8,6 +8,7 @@ if(obj_controller.pontos > global.pontuacao_maxima)
 	global.pontuacao_maxima = obj_controller.pontos
 }
 
+audio_stop_all();
 
 
 

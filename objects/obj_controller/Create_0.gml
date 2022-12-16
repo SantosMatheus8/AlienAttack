@@ -28,7 +28,8 @@ ganha_pontos = function(quantidade_pontos)
 {
 	pontos += quantidade_pontos;
 }
- 
 
+audio_stop_all();
+audio_play_sound(snd_musica_jogo, 1,true);
 
 
