@@ -52,6 +52,13 @@ estado_1 = function()
 estado_2 = function()
 {
 	estado_1();
+	
+	if(tempo_tiro <= 0)
+	{
+		var tiro2 = instance_create_layer(x, y + 30, "Tiro_Boss", obj_tiro2_inimigo);
+		tiro2.image_xscale = 1.5;
+		tiro2.image_yscale = 1.5;
+	}
 }
 
 estado_3 = function()
