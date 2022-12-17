@@ -33,8 +33,6 @@ else if(estado_atual == "estado 4")
 	alarme1--;
 }
 
-show_debug_message(estado_atual)
-
 //Fazendo o boss˜mudar de estado dependendo da vida
 //dele
 if(vida_atual <= (vida_max * 0.8) && vida_atual > (vida_max * 0.6))
@@ -49,8 +47,6 @@ else if (vida_atual <= (vida_max * 0.4) && !entrou_estado4)
 {
 	estado_atual = "estado 4";
 }
-
-//if(entrou_estado4 && !instance_exists())
 
 
 
