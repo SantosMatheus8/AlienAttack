@@ -16,14 +16,17 @@ impacto = function(inimigo)
 	instance_destroy(inimigo);
 	instance_create_layer(inimigo.x, inimigo.y, "Instances", obj_explosao);
 
-	if(obj_nave.tiro_level == 4)
+	if(instance_exists(obj_nave))
 	{
-		cria_tiro4();
-	}
+		if(obj_nave.tiro_level == 4)
+		{
+			cria_tiro4();
+		}
 	
-	if(obj_nave.tiro_level == 5)
-	{
-		cria_tiro5();
+		if(obj_nave.tiro_level == 5)
+		{
+			cria_tiro5();
+		}
 	}
 	
 	global.inimigos_derrotados++;

@@ -16,14 +16,17 @@ function Impacto_boss(){
 	instance_create_layer(other.x, other.y, "Instances", obj_tiro_impacto);
 	instance_destroy(other);
 
-	if(obj_nave.tiro_level == 4)
+	if(instance_exists(obj_nave))
 	{
-		obj_tiro1_player.cria_tiro4();
-	}
+		if(obj_nave.tiro_level == 4)
+		{
+			obj_tiro1_player.cria_tiro4();
+		}
 	
-	if(obj_nave.tiro_level == 5)
-	{
-		obj_tiro1_player.cria_tiro5();
+		if(obj_nave.tiro_level == 5)
+		{
+			obj_tiro1_player.cria_tiro5();
+		}
 	}
 }
 
