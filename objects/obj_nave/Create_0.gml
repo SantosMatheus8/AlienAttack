@@ -7,7 +7,7 @@ velocidade = 5;
 
 tempo_tiro = 15;
 
-tiro_level = 5;
+tiro_level = 1;
 
 quantidade_escudos = 3;
 

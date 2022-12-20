@@ -4,7 +4,15 @@
 if(pontos > proximo_level)
 {
 	level++;
-	proximo_level *= 2;
+	
+	if(level < 3)
+	{	
+		proximo_level *= 2;
+	}
+	else
+	{
+		proximo_level += 800;
+	}
 	
 	if(level > 2)
 	{

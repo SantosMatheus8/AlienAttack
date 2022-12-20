@@ -6,7 +6,7 @@ if(quantidade_escudos < 3)
 	quantidade_escudos++;
 }
 
-alarm[1] = 300
+alarm[1] = 900;
 
 
 
