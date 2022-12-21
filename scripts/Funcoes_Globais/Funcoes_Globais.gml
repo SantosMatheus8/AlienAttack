@@ -49,6 +49,7 @@ function cria_sequence_vitoria()
 
 function cria_transicao()
 {
-	var transicao = instance_create_layer(0, 0, "Instances", obj_transicao);
-	transicao.destino = Room_inicio;
+	//var transicao = instance_create_layer(0, 0, "Instances", obj_transicao);
+	//transicao.destino = Room_inicio;
+		layer_sequence_create("Sequences", 640 ,360 , sq_vitoria);
 }
