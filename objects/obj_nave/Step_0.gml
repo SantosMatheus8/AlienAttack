@@ -4,10 +4,10 @@
 //Movimentacao do personagem
 var cima, baixo, esquerda, direita, tiro, escudo;
 
-cima = keyboard_check(ord("W"));
-baixo = keyboard_check(ord("S"));
-esquerda = keyboard_check(ord("A"));
-direita = keyboard_check(ord("D"));
+cima = max(keyboard_check(ord("W")), keyboard_check(vk_up));
+baixo = max(keyboard_check(ord("S")), keyboard_check(vk_down));
+esquerda = max(keyboard_check(ord("A")), keyboard_check(vk_left));
+direita = max(keyboard_check(ord("D")), keyboard_check(vk_right));
 tiro = keyboard_check(vk_space); 
 escudo = keyboard_check_pressed(ord("E")); 
 
