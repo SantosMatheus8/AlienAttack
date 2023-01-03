@@ -11,10 +11,12 @@ direita = max(keyboard_check(ord("D")), keyboard_check(vk_right));
 tiro = keyboard_check(vk_space); 
 escudo = keyboard_check_pressed(ord("E")); 
 
-x -= esquerda * velocidade;
-x += direita * velocidade;
-y -= cima * velocidade;
-y += baixo * velocidade;
+if(cima xor baixo || esquerda xor direita)
+{
+	var dir = point_direction(0, 0, (direita - esquerda), (baixo - cima))
+	x += lengthdir_x(velocidade, dir);
+	y += lengthdir_y(velocidade, dir);  
+}
 
 //Faz os disparos ficarem automaticos enquanto o jogador
 //segura espaco, o alarm nao tem codigo nenhum, so
