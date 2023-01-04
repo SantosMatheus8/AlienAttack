@@ -1,12 +1,15 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-/*
-Estado 1 :
-Estado 2 :
-Estado 3 :
-*/ 
-estado_atual = "estado 1";
+//Enum dos estados do boss
+enum estados{
+	estado1,
+	estado2,
+	estado3,
+	estado4
+}
+
+estado_atual = estados.estado1;
 
 
 //Essa variavel verifica se o boss ja chegou no estado
