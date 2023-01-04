@@ -3,7 +3,7 @@
 
 vida = 3; 
 
-velocidade = 5;
+velocidade = 8;
 
 tempo_tiro = 15;
 
